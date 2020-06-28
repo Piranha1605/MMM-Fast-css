@@ -1,0 +1,71 @@
+html {
+  overflow: hidden;
+  background: #2c2c2d;
+}
+
+body {
+  margin: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-bottom: -10px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #dbdcdf;
+  background: transparent;
+}
+
+header {
+  background: transparent;
+  padding: 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid #dbdcdf;
+  color: #dbdcdf;
+  font-size: 20px;
+}
+
+
+.dimmed {
+  color: #dbdcdf;
+}
+
+.normal {
+  color: #dbdcdf;
+}
+
+.bright {
+  color: #dbdcdf;
+}
+
+/**
+ * module.color_border_shadow
+ */ 
+ 
+ .module {
+  padding:8px;
+  border-radius: 10px;
+  box-shadow:  20px 20px 39px #1a1a1a,-20px -20px 39px #3e3e40;
+  background: transparent;
+}
+
+/**
+ * clock
+ */
+ 
+.clock .time {
+ font-size: 80px;
+ text-align: center;
+ color: #dbdcdf;
+ padding: 5px;
+ border-radius: 10px;
+ box-shadow:  20px 20px 39px #1a1a1a,-20px -20px 39px #3e3e40;
+ background: transparent;		 
+}
+
+.clock .date {
+  background: transparent;
+  text-align: center;
+  color: #dbdcdf;
+  font-size: 20px;
+}

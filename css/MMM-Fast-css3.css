@@ -1,0 +1,65 @@
+html {
+  cursor: default;
+  overflow: hidden;
+  background: #c4c4c4;
+}
+
+
+body {
+  margin: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-bottom: -10px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: black;
+  background: transparent;
+}
+
+header {
+  background: transparent;
+  padding: 0.5rem;
+  text-align: center;
+  border-bottom: 0.7px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  font-size: 20px;
+}
+.dimmed {
+  color: black;
+}
+
+.normal {
+  color: black;
+}
+
+.bright {
+  color: black;
+}
+
+/**
+ * module.color_border_shadow
+ */ 
+ .module {
+  padding:8px;
+  border-radius: 10px;
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 55px 50px -35px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.clock .time {
+ font-size: 80px;
+ text-align: center;
+ margin-top: 25px;
+ color: black;
+ padding: 15px;
+}
+.clock .date {
+  background: transparent;
+  padding: 5px;
+  text-align: center;
+  border-bottom: transparent;
+  color: black;
+  font-size: 20px;
+}

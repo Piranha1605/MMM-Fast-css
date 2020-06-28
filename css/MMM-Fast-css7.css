@@ -1,0 +1,65 @@
+html {
+  cursor: default;
+  overflow: hidden;
+  background: url("bg/bg7.jpg");
+  background-size: cover;
+}
+
+
+body {
+  margin: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-bottom: -10px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+header {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  padding:8px;
+}
+.dimmed {
+  color: #FFFFFF;
+}
+
+.normal {
+  color: #FFFFFF;
+}
+
+.bright {
+  color: #FFFFFF;
+}
+
+/**
+ * module.color_border_shadow
+ */ 
+ .module {
+  padding:8px;
+  border-top: 2px solid rgba(225, 225, 225, 0.2);
+  border-left: 1px solid rgba(225, 225, 225, 0.1);
+  border-right: 1px solid rgba(225, 225, 225, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0) 8%, rgba(255, 255, 255, 0.075) 10%, rgba(255, 255, 255, 0.075) 14%, rgba(255, 255, 255, 0.15) 14%, rgba(255, 255, 255, 0.15) 15%, rgba(255, 255, 255, 0.075) 17%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 36%, rgba(255, 255, 255, 0.075) 40%, rgba(255, 255, 255, 0.15) 42%, rgba(255, 255, 255, 0) 43%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0.075) 60%, rgba(255, 255, 255, 0.075) 66%, rgba(255, 255, 255, 0.15) 66%, rgba(255, 255, 255, 0.075) 70%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%), radial-gradient(ellipse farthest-corner, transparent, rgba(0, 0, 0, 0.2) 110%);
+}
+
+.clock .time {
+ font-size: 80px;
+ text-align: center;
+ margin-top: 25px;
+ color: #FFFFFF;
+ padding:4px;
+}
+.clock .date {
+  background: transparent;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+}

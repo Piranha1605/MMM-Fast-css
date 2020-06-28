@@ -1,0 +1,68 @@
+html {
+  cursor: default;
+  overflow: hidden;
+  background: #7e94d8;
+}
+
+
+body {
+  margin: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-bottom: -10px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #666666;
+  background: transparent;
+}
+
+header {
+  background: #9DD5FF;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-shadow: 0px 10px 20px #000000;
+  box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.53);
+  border-radius: 10px;
+}
+.dimmed {
+  color: #FFFFFF;
+}
+
+.normal {
+  color: #FFFFFF;
+}
+
+.bright {
+  color: #FFFFFF;
+}
+
+/**
+ * module.color_border_shadow
+ */ 
+ .module {
+  padding:8px;
+  border-radius: 10px;
+  box-shadow: 0px 31px 35px 0px rgba(0, 0, 0, 0.38);
+  background: linear-gradient(159deg, #47455d 0%, #323045 97%);
+}
+
+.clock .time {
+ font-size: 80px;
+ text-align: center;
+ margin-top: 25px;
+ color: #FFFFFF;
+ padding: 15px;
+}
+.clock .date {
+  background: #9DD5FF;
+  padding: 2px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-shadow: 0px 10px 20px #000000;
+  border-radius: 10px;
+}

@@ -1,0 +1,76 @@
+
+html {
+  cursor: default;
+  overflow: hidden;
+  background:#ededed;
+}
+
+
+body {
+  margin: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-bottom: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #606060;
+  background:#ededed;
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+  padding:8px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  color: #fff;
+  background-image: linear-gradient(to top, #4e9816, #57a818);
+}
+.dimmed {
+  color: #606060;
+}
+
+.normal {
+  color: #606060;
+}
+
+.bright {
+  color: #606060;
+}
+
+/**
+ * module.color_border_shadow
+ */ 
+
+ .module {
+  font-size: 20px; 
+  padding:8px;
+  background: #fff;
+  background-image: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  text-shadow: 0px 1px 0px #ffffff;
+  box-shadow: 0px 1px 0px #fefefe;
+  color: #606060;
+  border: solid #cfcfcf 1px;
+  font-weight: 400;
+}
+
+.clock .time {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 25px;
+  color: #606060;
+  background: transparent;
+  padding:4px;
+}
+.clock .date {
+  background: transparent;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  color: #fff;
+  background-image: linear-gradient(to top, #4e9816, #57a818);
+  padding:8px;
+}

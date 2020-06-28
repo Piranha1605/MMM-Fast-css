@@ -1,0 +1,67 @@
+html {
+  cursor: default;
+  overflow: hidden;
+  background: #545454;
+}
+
+
+body {
+  margin: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-bottom: -10px;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+header {
+  background: transparent;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  border-radius: 23px;
+  box-shadow: inset 11px 11px 16px #3e3e3e, 
+            inset -11px -11px 16px #6a6a6a;
+}
+.dimmed {
+  color: #FFFFFF;
+}
+
+.normal {
+  color: #FFFFFF;
+}
+
+.bright {
+  color: #FFFFFF;
+}
+
+/**
+ * module.color_border_shadow
+ */ 
+ .module{
+  padding:8px;
+  border-radius: 20px;
+  background: transparent;
+  box-shadow:  11px 11px 16px #3e3e3e,-11px -11px 16px #6a6a6a;
+}
+
+.clock .time {
+ font-size: 80px;
+ text-align: center;
+ margin-top: 25px;
+ color: #FFFFFF;
+ padding:4px;
+}
+.clock .date {
+  background: transparent;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  border-radius: 23px;
+  box-shadow: inset 11px 11px 16px #3e3e3e,inset -11px -11px 16px #6a6a6a;
+}

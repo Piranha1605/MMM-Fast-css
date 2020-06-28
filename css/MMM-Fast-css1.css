@@ -1,0 +1,169 @@
+/**
+ * fixe Werte Anfang
+ */
+ 
+html {
+  cursor: default;
+  overflow: hidden;
+}
+body {
+  margin: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  margin-bottom: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;  
+}
+header {
+  text-align: center;
+  font-size: 20px;
+  padding:8px;
+  text-transform: uppercase;
+}
+ .module {
+  font-size: 20px; 
+  padding:8px;
+  font-weight: 400;
+}
+.clock .time {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 5px;
+  padding:4px;
+}
+.clock .date {
+  text-align: center;
+  font-size: 20px;
+  padding:8px;
+  text-transform: uppercase;
+}
+
+/**
+ * fixe Werte Ende
+ *********************************************/
+
+/**
+ * optionale Werte Anfang
+ */
+html {
+  background:black;
+}
+
+
+body {
+  color: #eee;
+  background:black;
+}
+
+header {
+  color: #eee;
+  border-radius: 5px; 
+}
+
+ .module {
+  color: #eee;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.clock .time {
+  color: #eee;
+  background: transparent;
+}
+.clock .date {
+  color: #eee;
+  border-radius: 5px;
+  
+}
+ 
+.dimmed,
+.normal,
+.bright {
+  color: #eee;
+}
+/**
+ * optionale Werte Ende
+ */
+
+.currentweather .weathericon {
+  position: absolute;
+  z-index: 0;
+  height: 120px;
+  left: -20px;
+}
+
+.weathericon {
+  position: absolute;
+  left: 60px;
+  z-index: 1;
+  margin-top: -15px;
+  height: 35px;
+  -webkit-svg-shadow: 0 0 7px #53BE12;
+}
+
+.wi-day-sunny {
+content: url("/modules/MMM-Fast-css/icons/Mostly Sunny Icon Group.svg");
+}
+
+.wi-day-cloudy {
+content: url("/modules/MMM-Fast-css/icons/Partly Cloudy Icon Group.svg");
+margin-left: -2px;
+}
+
+.wi-rain {
+content: url("/modules/MMM-Fast-css/icons/Heavy Rain Icon Group.svg");
+}
+
+.wi-night-clear {
+content: url("/modules/MMM-Fast-css/icons/Clear Night Icon Group.svg");
+}
+
+.wi-night-cloudy {
+content: url("/modules/MMM-Fast-css/icons/Partly Cloudy Night Icon Group.svg");
+}
+
+.wi-cloudy {
+content: url("/modules/MMM-Fast-css/icons/Mostly Cloudy Icon Group.svg");
+}
+
+.wi-showers {
+content: url("/modules/MMM-Fast-css/icons/Scattered Showers Icon Group.svg");
+}
+
+.wi-thunderstorm {
+content: url("/modules/MMM-Fast-css/icons/Mix Rainfall Icon Group.svg");
+}
+
+.wi-snow {
+content: url("/modules/MMM-Fast-css/icons/Blizzard Icon Group.svg");
+}
+
+.wi-cloudy-windy {
+content: url("/modules/MMM-Fast-css/icons/Partly Cloudy Icon Group.svg");
+}
+
+.wi-night-rain {
+content: url("/modules/MMM-Fast-css/icons/Heavy Rain Night Icon Group.svg");
+}
+
+.wi-night-snow {
+content: url("/modules/MMM-Fast-css/icons/Blizzard Night Icon Group.svg");
+}
+
+.wi-night-thunderstorm {
+content: url("/modules/MMM-Fast-css/icons/Severe Thunderstorm Night Icon Group.svg");
+}
+
+.wi-night-showers {
+content: url("/modules/MMM-Fast-css/icons/Scattered Showers Night Icon Group.svg");
+}
+
+.wi-fog {
+content: url("/modules/MMM-Fast-css/icons/Fog Icon Group.svg");
+}
+
+.wi-night-alt-cloudy-windy {
+content: url("/modules/MMM-Fast-css/icons/Partly Cloudy Night Icon Group.svg");
+}
